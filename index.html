@@ -5,106 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6e67eec3e0.js" crossorigin="anonymous"></script>
+    <label for="file"></label>
 </head>
 <body>
-    <img src="https://media.licdn.com/dms/image/D4E03AQEJm7MGZvR1dw/profile-displayphoto-shrink_800_800/0/1671658589387?e=1687996800&v=beta&t=P9nOpzUJH6y0KtURj3AVHzgQPWFVClgm9TFw9c48940"
-    width="150"
-    height="150">
-    <h1>Nicolás Trujillo</h1>
-    <h2>Software Developer</h2>
-    <h3>Información General</h3>
-    <p> <strong>Email:</strong> nicolas.trujillo@live.com <br> <strong>Teléfono:</strong> 3182953609 <br> <strong>Ubicación:</strong> Medellin - Colombia</p>
-    <a href="https://www.linkedin.com/in/nicol%C3%A1s-trujillo-hern%C3%A1ndez-88375b1ab/">Linkedin</a>
-    <a href="https://github.com/Nicolas10100">Github</a>
+  <main class="flex-main-cv">
+    <header class="header">
+      <img src="https://media.licdn.com/dms/image/D4E03AQEJm7MGZvR1dw/profile-displayphoto-shrink_800_800/0/1671658589387?e=1687996800&v=beta&t=P9nOpzUJH6y0KtURj3AVHzgQPWFVClgm9TFw9c48940">
+      <section class="header-text">
+      <h1>Nicolás Trujillo</h1>
+      <h2>Software Developer</h2>
+      </section>
+    </header>
+  <aside class="cv-body">
+    <section class="content-user-info">
+      <h3>Contacto</h3>
+      <i class="fa-regular fa-envelope"></i>
+      <p> <strong>Email:</strong> nicolas.trujillo@live.com </p>
+      <i class="fa-solid fa-mobile-screen-button"></i>
+      <p>
+      <strong>Teléfono:</strong> 3182953609 
+      </p>
+      <i class="fa-solid fa-location-crosshairs"></i>
+      <p>
+      <strong>Ubicación:</strong> Medellin - Colombia
+      </p>
+      <h3>Links</h3>
+      <i class="fa-brands fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/nicol%C3%A1s-trujillo-hern%C3%A1ndez-88375b1ab/">Linkedin</a>
+      <i class="fa-brands fa-github"></i>
+      <a href="https://github.com/Nicolas10100">Github</a>
+      <h3>Formación Academica</h3>
+      <div class="Intereses1">
+        <p><strong>Ingeniero Civil</strong><br>Universidad EAFIT <br> Medellín <br> 2016-2020</p>
+      </div>
+      <h3 class="Intereses">Idiomas</h3>
+      <div class="Intereses1">
+        <p><strong>Inglés </strong>C1</p>
+      </div>
+    </section>
+  
+    <section class="content-profile-details">
+      <h3>Perfil</h3>
+      <p class="Perfil">Tengo conocimiento en el desarrollo de una pagina web desde el front end como CSS y HTML, hasta el backend como desarrollador full stack. Me motiva mucho desarrollar mis habilidades y crecer profesionalmente. Tengo gran capacidad de trabajo en equipo, como en la solucion creativa de problemas, además de una gran pasión por la tecnologia y la programación</p>
+      <h3>Experiencia Previa</h3>
 
-    <h3>Experiencia Previa</h3>
-
-    <ul>
-        <li> <strong>Asistant Project Manager - Conconcreto</strong>
-            <ul>
-                <li>Estimación de las ofertas de construcción para los
-                    clientes externos de construcciones para diferentes
-                    usos como vivienda, hoteles e industriales</li>
-                <li>Licitación de proyectos de vivienda en Miami,
-                    Florida, mediante el esquema de administración
-                    delegada.
-                    </li>
-                <li>Manejo de RFI, Submittals y subcontratistas a traves
-                    de herramientas como Procore.
-                    </li>
-            </ul>
-        </li>
-        <li> <strong>Ingeniero de presupuestos - AyC </strong> 
-            <ul>
-                <li>Estimación de los presupuestos de los proyectos
-                    privados de vivienda y comercio a nivel nacional,
-                    mediante la creación de APUS, con cantidades
-                    extraídas de Revit.
-                    </li>
-                <li>Modelación digital de terrenos en Civil 3D para la
-                    estimación de cantidades y estudios técnicos de
-                    contención de taludes</li>
-            </ul>
-        </li>
-        <li> <strong>Analista de proyectos y concesiones viales - ISA</strong> 
-            <ul>
-                <li>Creación de herramientas de visualización de datos,
-                    para extraer los rendimientos y tenores de las
-                    ofertas presentadas antes en la vicepresidencia con
-                    el uso de Power BI</li>
-                <li>Elaboración del OPEX y CAPEX (administración,
-                    operación y mantenimiento) de los proyectos
-                    estudiados por la vicepresidencia.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h3>Habilidades Técnicas</h3>
-
-      <table>
-        <tr>
-          <th>Habilidad</th>
-          <th>Calificación</th>
-        </tr>
-        <tr>
-          <td>HTML</td>
-          <td>Bueno</td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>Excelente</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>Bueno</td>
+      <ul>
+          <li> <strong>Asistant Project Manager - Conconcreto</strong>
+              <ul>
+                  <li>Estimación de las ofertas de construcción para los
+                      clientes externos de construcciones para diferentes
+                      usos como vivienda, hoteles e industriales</li>
+                  <li>Licitación de proyectos de vivienda en Miami,
+                      Florida, mediante el esquema de administración
+                      delegada.
+                      </li>
+                  <li>Manejo de RFI, Submittals y subcontratistas a traves
+                      de herramientas como Procore.
+                      </li>
+              </ul>
+          </li>
+          <li> <strong>Ingeniero de presupuestos - AyC </strong> 
+              <ul>
+                  <li>Estimación de los presupuestos de los proyectos
+                      privados de vivienda y comercio a nivel nacional,
+                      mediante la creación de APUS, con cantidades
+                      extraídas de Revit.
+                      </li>
+                  <li>Modelación digital de terrenos en Civil 3D para la
+                      estimación de cantidades y estudios técnicos de
+                      contención de taludes</li>
+              </ul>
+          </li>
+          <li> <strong>Analista de proyectos y concesiones viales - ISA</strong> 
+              <ul>
+                  <li>Creación de herramientas de visualización de datos,
+                      para extraer los rendimientos y tenores de las
+                      ofertas presentadas antes en la vicepresidencia con
+                      el uso de Power BI</li>
+                  <li>Elaboración del OPEX y CAPEX (administración,
+                      operación y mantenimiento) de los proyectos
+                      estudiados por la vicepresidencia.</li>
+              </ul>
+          </li>
+      </ul>
+      <div class="hv-bot">
+        <h3 class="HTecnicas">Habilidades Técnicas</h3>
+        <table class="HTecnicas-tab">
+          <tr>
+            <th>Habilidad</th>
+            <th>Calificación</th>
           </tr>
-      </table>
-
-    <h3>Intereses</h3>
-
-      <table>
-        <tr>
-          <th>Intereses</th>
-        </tr>
-        <tr>
-          <td>Desarrollo Web</td>
-        </tr>
-        <tr>
-          <td>Frontend</td>
-        </tr>
-        <tr>
-            <td>Backend</td>
+          <tr>
+            <td>HTML</td>
+            <td><progress id="file" max="10" value="9"> 70% </progress></td>
           </tr>
-      </table>
+          <tr>
+            <td>CSS</td>
+            <td><progress id="file" max="100" value="85"> 70% </progress></td>
+          </tr>
+          <tr>
+              <td>Java</td>
+              <td><progress id="file" max="100" value="80"> 70% </progress></td>
+            </tr>
+        </table>
 
-    <h3>Email</h3>
-
-        <input type="text" value="Type here">
-    
-    <h3>Comentarios</h3>
-
-        <textarea name="textarea" rows="10" cols="50">Escribe un comentario</textarea>
-    <br>
-    <button name="Contactar">Contactar</button>
+      </div>
+    </section>
+  </aside>
+  </main>
 </body>
 </html>

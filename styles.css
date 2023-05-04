@@ -1,0 +1,125 @@
+body{
+    background-color: rgba(128, 128, 128, 0.205);
+}
+.flex-main-cv{
+display: flex;
+flex-direction: column;
+font-family: 'Poppins', sans-serif;
+margin-left: 15%;
+margin-right: 15%;
+text-align: justify;
+}
+.header{
+    display: flex;
+    justify-content:flex-start;
+    background-image: url("https://cdn.pixabay.com/photo/2015/09/17/10/31/banner-943868__340.jpg");
+    height: auto;
+    max-width: 100%;
+
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+.cv-body{
+    display: flex;
+}
+.content-user-info{
+align-items: center;
+display: flex;
+background: rgb(29, 59, 114);
+border: 0;
+width: 30%;
+flex-direction: column;
+color: white;
+}
+
+.content-profile-details{
+display: flex;
+background: rgb(255, 255, 255);
+width: 70%;
+align-items: center;
+flex-direction: column;
+justify-content: flex-start;
+}
+.Perfil{
+    display: flex;
+    word-break: break-word;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hv-bot{
+    display: flex;
+    flex-direction: column;
+}
+.HTecnicas{
+    display: flex;
+    width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    justify-content: center;
+}
+
+img {
+    margin-top: 5px;
+    border-radius: 100%;
+    align-items: center;
+    width: 30%;
+    height: auto;
+  }
+
+h1{
+font-size: 30px;
+}
+h2{
+font-size: 23px;
+}
+h3{
+font-size: 20px;
+word-break: break-word;
+white-space: normal;
+text-align: center;
+width: 100%;
+border-bottom: 1px solid white;
+border-top: 1px solid white;
+}
+p{
+font-size: 17px;
+word-break: break-all;
+white-space: normal;
+}
+a{
+    color: white;
+}
+ul{
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+table {
+    border-spacing: 1px;
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    word-wrap: break-word;
+    text-align: center;
+}
+i{
+    display: flex;
+}
+
+
